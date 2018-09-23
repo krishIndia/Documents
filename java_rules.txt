@@ -1,0 +1,148 @@
+List of Rules
+Rule 1: Use the automated build tools for your project. 
+Rule 2: When distributing a project, package all necessary class and resource files in a jar file. 
+Rule 3: Define only one class or interface per .java file. 
+Rule 4: Use the following structure for all implementation files: 
+Rule 5: Do not use tab characters in implementation files, use plain spaces instead. 
+Rule 6: Use the following order to declare members of a class: Comments, Package, Import.
+Rule 7: Use four spaces of indentation. 
+Rule 8:
+Rule 9: Put single variable definitions in separate lines.
+Rule 10: Put single statements in separate lines. 
+Rule 11: Format compound statements according to the following guidelines: 
+Rule 12: Always put braces around statements contained in control structures. 
+Rule 13: Format if-else statements according to the following models: 
+Rule 14: Format for statements according to the following model: 
+Rule 15: Format while statements according to the following model: 
+Rule 16: Format do-while statements according to the following model:
+Rule 17: Format switch statements according to the following model: 
+Rule 18: Format try-catch statements according to the following model: 
+Rule 19: Leave two blank lines:
+Rule 20: Leave one blank line: 
+Rule 21: Always use a space character:
+Rule 22: Use American English for identifiers. 
+Rule 23: Restrict identifiers to the ASCII character set. 
+Rule 24: Avoid names that differ only in case. 
+Rule 25: Capitalize the first letter of standard acronyms. 
+Rule 26: Do not hide declarations. 
+Rule 27: Use the reversed, lower-case form of your organization’s Internet domain name as the root qualifier for your package names. 
+Rule 28: Use a single, lower-case word as the root name of each package. 
+Rule 29: Capitalize the first letter of each word that appears in a class or interface name. 
+Rule 30: Use nouns or adjectives when naming interfaces. 
+Rule 31: Use nouns when naming classes. 
+Rule 32: Pluralize the names of classes that group related attributes, static services or constants.
+Rule 33: Use lower-case for the first word and capitalize only the first letter of each subsequent word that appears in a method name.
+Rule 34: Use verbs in imperative form to name methods  
+Rule 35: Use verbs in present third person to name analyzer methods returning a boolean value.
+Rule 36: Use nouns to name analyzer methods returning a non-boolean value, or, alternatively,name them using the verb “get”.
+Rule 37: Name methods setting properties of an object (set methods) using the verb “set”. ..
+Rule 38: Use nouns to name variables and attributes. 
+Rule 39: When a constructor or “set” method assigns a parameter to a field, give that parameter the same name as the field. 
+Rule 40: Qualify instance variable references with this to distinguish them from local variables.
+Rule 41: Use upper-case letters for each word and separate each pair of words with an underscore when naming Java constants. 
+Rule 42: Provide a summary description and overview for each application or group of packages.
+Rule 43: Provide a summary description and overview for each package. 
+Rule 44: Use documentation comments to describe the programming interface. 
+Rule 45: Document public, protected, package, and private members.
+Rule 46: Use a single consistent format and organization for all documentation comments.
+Rule 47: Wrap keywords, identifiers, and constants mentioned in documentation comments with <code>...</code> tags.
+Rule 48: Wrap full code examples appearing in documentation comments with <pre></pre> tags.
+Rule 49: Include Javadoc tags in a comment in the following order: 
+Rule 50: Include an @author and a @version tag in every class or interface description. 
+Rule 51: Fully describe the signature of each method. 
+Rule 52: Document synchronization semantics. 
+Rule 53: Add a “fall-through” comment between two case labels, if no break statement separates those labels. 
+Rule 54: Label empty statements. 
+Rule 55: Use end-line comments to explicitly mark the logical ends of conditionals loops, exceptions,enumerations, methods or classes. 
+Rule 56: Do not use the wildcard (“*”) notation in import statements. 
+Rule 57: Put all shared classes and interfaces that are internal to a project in a separate package called “internal”. 
+Rule 58: Make classes that do not belong to a package's public API private.
+Rule 59: Make all class attributes private. 
+Rule 60: A class shall define at least one constructor. 
+Rule 61: Hide any constructors that do not create valid instances of the corresponding class,by declaring them as protected or private. 
+Rule 62: Do not call non-final methods from within a constructor. 
+Rule 63: Methods that do not have to access instance variables shall be declared static.
+Rule 64: A parameter that is not changed by the method shall be declared final. 
+Rule 65: Use parentheses to explicitly indicate the order of execution of numerical operators
+Rule 66: Use generics instead of casting when navigating through collections.
+Rule 67: Preserve method contracts in derived classes. 
+Rule 68: Explicitly check method parameters for validity, and throw an adequate exception
+in case they are not valid. Do not use the assert statement for this purpose. 
+Rule 69: Add diagnostic code to all areas that, according to the expectations of the programmer,should never be reached. 
+Rule 70: Do not use expressions with side effects as arguments to the assert statement. 
+Rule 71: Use the Java logging mechanism for all debugging statements instead of resorting to the System.out.println function.
+Rule 72: Use unchecked, run-time exceptions to handle serious unexpected abnormal situations,including those that may indicate errors in the program’s logic. 
+Rule 73: Use checked exceptions to report errors that may occur, even if rarely, under normal program operation.
+Rule 74: Do not silently absorb a run-time or error exception. 
+Rule 75: Never ignore error values reported by methods. 
+Rule 76: Do not rely on thread scheduling particularities to define the behavior of your program,use synchronization instead.
+Rule 77: Avoid native methods. 
+Rule 78: Restrict the use of the System.exit method to the cases described below. 
+Rule 79: Do not hard-code file names and paths in your program. 
+Rule 80: Always make JDBC driver names configurable, do not hard code them. 
+Rule 81: Do not rely on a particular convention for line termination.
+Rule 82: Restrict the use of System.in, System.out or System.err to programs explicitly intended for the command line. 
+Rule 83: When necessary, use the internationalization and localization features of the Java platform. 
+Rule 84: Do not hard code position and sizes of graphical elements.
+Rule 85: Do not hard code text sizes or font names.
+Rule 86: Do not hard code colors or other GUI appearance elements.
+Rule 87: Do not retain Graphics objects passed to update methods of graphical components.
+Rule 88: Do not use methods marked as deprecated in the Java API. 
+Rule 89: Do not rely on the format of the result of the java.net.InetAddress.getHostName method. 
+Rule 90: Always check for local availability of Pluggable Look and Feel (PLAF) classes, and provide a safe fall back in case they are not available. 
+Rule 91: Do not mix classes compiled against different versions of the Java platform. 
+Rule 92: Use the Java 2 Standard Edition (J2SE) platform. 
+Rule 93: Baseline a particular version of the J2SE libraries. 
+Rule 94: Use cooperating hard real-time components to interface with native code. 
+Rule 95: Use cooperating hard real-time components to implement performance-critical code. 
+Rule 96: Use cooperating hard real-time components to interact directly with hardware devices.
+Rule 97: Isolate JVM dependencies. 
+Rule 98: Use a hard real-time subset of the standard Java libraries.
+Rule 99: Use a hard real-time subset of the real-time specification for Java. 
+Rule 100: Use enhanced replacements for certain RTSJ libraries.
+Rule 101: Assure availability of supplemental libraries.
+Rule 102: Use an intelligent linker and annotations to guide initialization of static variables.
+Rule 103: Use only 128 priority levels for NoHeapRealtimeThread. 
+Rule 104: Do not instantiate java.lang.Thread or javax.realtime.RealtimeThread.
+Rule 105: Preallocate Throwable instances. 
+Rule 106: Restrict access to Throwable attributes. 
+Rule 107: Annotate all program components to Indicate scoped memory behaviors. 
+Rule 108: Carefully restrict use of methods declared with @AllowCheckedScopedLinks annotation.
+Rule 109: Carefully restrict use of methods declared with @ImmortalAllocation annotation.
+Rule 110: Use @StaticAnalyzable annotation to identify methods with bounded resource needs.
+Rule 111: Use hierarchical organization of memory to support software modules.
+Rule 112: Use the @TraditionalJavaShared conventions to share objects with traditional Java.
+Rule 113: Avoid synchronized statements.
+Rule 114: Inherit from PCP in any class that uses PriorityCeilingEmulation MonitorControl policy. 
+Rule 115: Inherit from Atomic in any class that synchronizes with interrupt handlers.
+Rule 116: Annotate the ceilingPriority() method of Atomic and PCP classes with @Ceiling. 
+Rule 117: Do not override Object.finalize().
+Rule 118: Except where indicated to the contrary, use hard real-time programming guidelines.
+Rule 119: Use only 28 priority levels for NoHeapRealtimeThread.
+Rule 120: Prohibit use of @OmitSubscriptChecking annotation.
+Rule 121: Prohibit invocation of methods declared with @AllowCheckedScopedLinks annotation.
+Rule 122: Require all code to be @StaticAnalyzable.
+Rule 123: Require all classes with Synchronized methods to inherit PCP or Atomic.
+Rule 124: Prohibit dynamic class loading.
+Rule 125: Prohibit use of blocking libraries.
+Rule 126: Prohibit use of PriorityInheritance MonitorControl policy.
+Rule 127: Do not share safety-critical objects with a traditional Java virtual machine.
+Rule 128: Use the established coding standards for C++ or C for the development of C++ or C code that is embedded into the Java code. 
+Rule 129: Check for ExceptionOccurred() after each call of a function in the JNI interface if that may cause an exception.
+Rule 130: Mark native methods as private.
+Rule 131: Select method names for C++ or C methods that state clearly that such a method is a native method. 
+Rule 132: Avoid name overloading for native methods.
+Rule 133: Do not use weak global references. 
+Rule 134: Use DeleteLocalRef() to free references in native code that were obtained in a loop. 
+Rule 135: Use NewGlobalRef()/DeleteGlobalRef() only for references that are stored outside of reachable memory that survives from one JNI call to the next. 
+Rule 136: Avoid using JNI for native HW access if alternative means are available.
+Rule 137: Do not use non-standard native interfaces unless there are very good reasons to do so. 
+Rule 138: Restrict the use of non-standard native interface uses to as few functions as possible.
+Rule 139: Refrain from using non-final public static variables.
+Rule 140: Never return references to internal mutable objects containing sensitive data. 
+Rule 141: Never store user provided mutable objects directly.
+Rule 142: Use the transient keyword for fields that contain direct handles to system resources,or that contain information relative to an address space.
+Rule 143: Define class specific serializing/deserializing methods.
+Rule 144: While deserializing an object of a particular class, use the same set of restrictions used while creating objects of the class. 
+Rule 145: Explicitly clear sensitive information from main memory.
+Rule 146: Always store sensitive information in mutable data structures.
